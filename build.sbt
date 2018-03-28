@@ -1,4 +1,4 @@
-val fiberNet = (
+lazy val fiberNet = (
   project in file(".")
 ).settings(
   scalaVersion := "0.7.0-RC1",
